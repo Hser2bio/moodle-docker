@@ -41,4 +41,4 @@ volumes:
 
 networks:
   moodle-network:
-    external: true
+    driver: bridge
